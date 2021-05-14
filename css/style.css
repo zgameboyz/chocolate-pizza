@@ -1,0 +1,44 @@
+body{
+  margin: auto;
+  width: 900px;
+
+}
+nav {
+display: flex;
+flex-direction: row;
+border: solid black 5px;
+justify-content: space-between;
+}
+
+#divLeft{
+  justify-content: flex-start;
+  flex-direction: row;
+}
+#divColumn{
+  border: solid black 5px;
+}
+nav img{
+  float:left;
+  padding-right: 10px;
+}
+
+#imagediv{
+  
+  justify-items: flex-end;
+  align-content: flex-end;
+  border: solid black 5px;
+  margin-top: 15px;
+}
+
+
+
+h1{
+  font-size: 3em;
+}
+main article h1{
+  margin-top: 50px;
+}
+#picParagraphs{
+  margin-top: 35px;
+  text-align: center;
+}
